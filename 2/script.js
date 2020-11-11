@@ -17,3 +17,12 @@ console.log(hello("Hello, how are you today?"))
 // 3. Uppdatera funktionen hello så att den tar ett namn som argument
 // Gör så att den hälsar med namn, t.ex. "Hello Fredrik, how are you today?"
 
+let userName =  "Einar"
+
+function bruh() {
+  let message = "Hello, " + userName
+  return message
+}
+
+console.log(bruh(userName))
+
